@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/src/assets/images/logo.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>PUBLIC CEMETERY MANAGEMENT SYSTEM</title>
+		<link rel="stylesheet" href="/src/assets/temp/css/main.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.datatables.net/2.0.3/css/dataTables.dataTables.css" />
+
+		<noscript
+			><link rel="stylesheet" href="/src/assets/temp/css/noscript.css"
+		/></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="app"></div>
+
+		<!-- Scripts -->
+		<nav id="menu"></nav>
+		<script src="/src/assets/temp/js/jquery.min.js"></script>
+		<script src="/src/assets/temp/js/jquery.scrollex.min.js"></script>
+		<script src="/src/assets/temp/js/browser.min.js"></script>
+		<script src="/src/assets/temp/js/breakpoints.min.js"></script>
+		<script src="/src/assets/temp/js/util.js"></script>
+		<script src="/src/assets/temp/js/main.js"></script>
+		<script src="https://cdn.datatables.net/2.0.3/js/dataTables.js"></script>
+		<script type="module" src="/src/main.js"></script>
+
+		<script>
+			$(document).ready(function () {
+				$("#myTable").DataTable();
+			});
+		</script>
+	</body>
+</html>
