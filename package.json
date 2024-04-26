@@ -9,10 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@maptiler/sdk": "^2.0.1",
+    "axios": "^1.6.8",
+    "pinia": "^2.1.7",
     "primevue": "^3.51.0",
     "swiper": "^11.1.0",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "vue-toast-notification": "^3.1.2",
+    "vue3-google-map": "^0.20.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
